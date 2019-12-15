@@ -375,6 +375,7 @@ describe("Best year average - bestYearAvg", function() {
   });
 
   it("Should return the oldest year when there is a tie", function() {
+    console.log("34")
     var newMoviesArr = [
       { year: 2000, rate: 9 },
       { year: 2000, rate: 8 },

@@ -94,7 +94,7 @@ const bestYearAvg = (movies) => {
     const sortedRatesByYear = everyAvarageMoviesByYear.sort((a,b)=>{
         if (a.rate < b.rate) return 1;
         if (a.rate > b.rate) return -1;
-        if (a.yeat < b.year) return 1;
+        if (a.year > b.year) return 1;
         else return -1;
     })
 
